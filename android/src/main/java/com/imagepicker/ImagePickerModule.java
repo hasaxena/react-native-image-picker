@@ -567,7 +567,7 @@ public class ImagePickerModule extends ReactContextBaseJavaModule
                     {
                       return;
                     }
-                    innerActivity.startActivity(intent, 1);
+                    innerActivity.startActivity(intent);
                   }
                 });
         dialog.show();
